@@ -114,6 +114,15 @@ Direct side-by-side comparison of:
 
 ---
 
+#  Sample Findings
+
+- Increasing loot supply improved short-term retention
+- Hardcore archetypes suffered higher churn under inflated economies
+- Low operational-cost players accumulated disproportionate wealth
+- Excessive item generation destabilized market pricing
+
+---
+
 # ⚙️ Simulation Engine
 
 The project uses a fully client-side simulation engine written in vanilla JavaScript.
