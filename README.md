@@ -1,5 +1,7 @@
 #  Game Economy A/B Testing Simulator
 
+https://github.com/user-attachments/assets/0d01d952-1064-4fed-8146-727e66fa2ec6
+
 A browser-based live-service economy simulation platform built with **React** and **Vite** that allows designers and analysts to model, test, and compare virtual game economy configurations across a simulated multiplayer ecosystem.
 
 The simulator provides interactive controls for balancing economy variables such as:
