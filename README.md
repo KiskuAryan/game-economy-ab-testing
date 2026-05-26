@@ -1,16 +1,183 @@
-# React + Vite
+#  Game Economy A/B Testing Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A browser-based live-service economy simulation platform built with **React** and **Vite** that allows designers and analysts to model, test, and compare virtual game economy configurations across a simulated multiplayer ecosystem.
 
-Currently, two official plugins are available:
+The simulator provides interactive controls for balancing economy variables such as:
+- loot drop rates
+- fuel costs
+- operational sinks
+- progression pacing
+- player income
+- crafting/resource generation
+- player archetype behavior
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+and visualizes their impact through comparative A/B testing dashboards.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#  Project Goal
 
-## Expanding the ESLint configuration
+Modern live-service games rely heavily on stable virtual economies.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Small balancing changes can unintentionally:
+- inflate item values
+- destabilize progression loops
+- increase churn
+- distort wealth distribution
+- reward low-engagement playstyles
+
+This project was built to simulate those outcomes before hypothetical deployment to live servers.
+
+The simulator focuses on:
+- economy balancing
+- retention analysis
+- player behavior modeling
+- inflation monitoring
+- systems experimentation
+- comparative A/B testing
+
+---
+
+#  Simulation Features
+
+## Configurable Economy Variables
+
+The simulator allows real-time adjustment of variables including:
+
+- Rare loot drop rates
+- Fuel prices
+- Daily operational costs
+- Crafting/resource generation
+- PvE reward scaling
+- Player income rates
+- Economy sinks
+- Simulation duration
+- Active player population
+
+---
+
+## A/B Testing Framework
+
+Two economy variants can be tested simultaneously:
+
+- **Control Variant**
+- **Experimental Variant**
+
+The dashboard compares how balancing changes affect:
+- player retention
+- average credits
+- gear progression
+- economy stability
+- item pricing
+- churn rates
+- archetype behavior
+
+---
+
+#  Dashboard Modules
+
+## Overview Dashboard
+High-level economy health comparison between both variants.
+
+---
+
+## Economy Metrics
+Tracks:
+- average credits over time
+- item market pricing
+- gear progression
+- inflation behavior
+- operational cost scaling
+
+---
+
+## Archetype Analysis
+Simulates different player groups including:
+- Casual players
+- PvP-focused players
+- Hardcore grinders
+
+and measures how economy changes affect each archetype differently.
+
+---
+
+## Head-to-Head Comparison
+Direct side-by-side comparison of:
+- retention
+- credits
+- player ownership
+- gear score
+- item pricing
+- active population
+
+---
+
+# ⚙️ Simulation Engine
+
+The project uses a fully client-side simulation engine written in vanilla JavaScript.
+
+Core systems include:
+- dynamic economy balancing
+- simulated player spending behavior
+- economy faucets and sinks
+- item value calculation
+- wealth distribution modeling
+- retention/churn simulation
+
+All calculations are processed in-browser with real-time dashboard updates.
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Vite
+- Tailwind CSS
+
+## Visualization
+- Interactive chart components
+- Dynamic dashboard UI
+- Real-time comparative analytics
+
+## Simulation
+- Vanilla JavaScript simulation engine
+- Client-side economy modeling
+- Adjustable balancing systems
+
+---
+
+# Local Setup
+
+## Clone Repository
+
+```bash
+git clone https://github.com/KiskuAryan/game-economy-ab-testing.git
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+#  Skills Demonstrated
+
+- Game economy balancing
+- Systems design thinking
+- A/B testing methodology
+- Data visualization
+- Live-service analytics
+- Retention analysis
+- Simulation architecture
+- Interactive dashboard design
+
+---
